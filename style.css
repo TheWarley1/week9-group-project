@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'poppins'; /* Font family name */
+    src: url('./assets/fonts/Poppins-Bold.ttf') format('truetype'); /* URL to your .ttf file */
+    font-weight: normal; /* Font weight (normal, bold, etc.) */
+    font-style: normal; /* Font style (normal, italic, etc.) */
+  }
+  
+  @font-face {
+    font-family: 'poppins1'; /* Font family name */
+    src: url('./assets/fonts/Poppins-ExtraBoldItalic.ttf') format('truetype'); /* URL to your .ttf file */
+    font-weight: normal; /* Font weight (normal, bold, etc.) */
+    font-style: normal; /* Font style (normal, italic, etc.) */
+  }
+
+  @font-face {
+    font-family: 'poppins2'; /* Font family name */
+    src: url('./assets/fonts/Poppins-ExtraBold.ttf') format('truetype'); /* URL to your .ttf file */
+    font-weight: normal; /* Font weight (normal, bold, etc.) */
+    font-style: normal; /* Font style (normal, italic, etc.) */
+  }
+
+  @font-face {
+    font-family: 'poppins2'; /* Font family name */
+    src: url('./assets/fonts/') format('truetype'); /* URL to your .ttf file */
+    font-weight: normal; /* Font weight (normal, bold, etc.) */
+    font-style: normal; /* Font style (normal, italic, etc.) */
+  }
+
+
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
+    height: 700px;
+    padding: 30px;
+    border-radius: 55px 55px 50% 55px;
+    
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+    
+}
+
+label{
+    font-family: poppins;
+    text-transform: uppercase;
+    color: hsl(0, 1%, 44%);
+}
+
+::placeholder{
+    font-family: poppins2;
+}
+
+.btn{
+    /* background-color: red; */
+    display: flex;
+}
+
+button{
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 100%;
+    padding: 15px;
+    border: none;
+}
+
+
+
+.line{
+    height: 2px;
+    width: 500px;
+    background-color: hsl(0, 0%, 86%);
+}
+
+.result{
+    font-family: Poppins1;
+    
+    font-size: 100px;
+
+}
+
+.result span{
+    color: hsl(259, 100%, 65%);
+    font-size: 100px;
+}
+
