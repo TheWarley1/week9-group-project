@@ -1,30 +1,7 @@
-@font-face {
-    font-family: 'poppins'; /* Font family name */
-    src: url('./assets/fonts/Poppins-Bold.ttf') format('truetype'); /* URL to your .ttf file */
-    font-weight: normal; /* Font weight (normal, bold, etc.) */
-    font-style: normal; /* Font style (normal, italic, etc.) */
-  }
-  
-  @font-face {
-    font-family: 'poppins1'; /* Font family name */
-    src: url('./assets/fonts/Poppins-ExtraBoldItalic.ttf') format('truetype'); /* URL to your .ttf file */
-    font-weight: normal; /* Font weight (normal, bold, etc.) */
-    font-style: normal; /* Font style (normal, italic, etc.) */
-  }
 
-  @font-face {
-    font-family: 'poppins2'; /* Font family name */
-    src: url('./assets/fonts/Poppins-ExtraBold.ttf') format('truetype'); /* URL to your .ttf file */
-    font-weight: normal; /* Font weight (normal, bold, etc.) */
-    font-style: normal; /* Font style (normal, italic, etc.) */
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
 
-  @font-face {
-    font-family: 'poppins2'; /* Font family name */
-    src: url('./assets/fonts/') format('truetype'); /* URL to your .ttf file */
-    font-weight: normal; /* Font weight (normal, bold, etc.) */
-    font-style: normal; /* Font style (normal, italic, etc.) */
-  }
+
 
 
 
@@ -61,13 +38,13 @@ form{
 }
 
 label{
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     color: hsl(0, 1%, 44%);
 }
 
 ::placeholder{
-    font-family: poppins2;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn{
@@ -91,7 +68,9 @@ button{
 }
 
 .result{
-    font-family: Poppins1;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
     
     font-size: 100px;
 
