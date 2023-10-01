@@ -26,11 +26,12 @@
                     <form action="form-body">
                         <div class="form-container">
                             <div class="input-grid">
+
                                 <div class="period">
                                     <label for="">Day</label>
                                 </div>
                                 <div>
-                                    <input type="text" class="input-style" placeholder="DD"/>
+                                    <input type="text" class="input-style" name="day" id="date" placeholder="DD" required="required" minlength="1" maxlength="2" />
                                 </div>
                             </div>
 
@@ -39,7 +40,7 @@
                                     <label for="">Month</label>
                                 </div>
                                 <div>
-                                    <input type="text" class="input-style" placeholder="MM"/>
+                                    <input type="text" class="input-style" name="month" id="month" placeholder="MM" required="required" minlength="1" maxlength="2" />
                                 </div>
                             </div>
 
@@ -48,7 +49,8 @@
                                     <label for="">Year</label>
                                 </div>
                                 <div>
-                                    <input type="text" class="input-style" placeholder="YYYY"/>
+                                    <input type="text" class="input-style" name="year" id="year" placeholder="YYYY" required="required" minlength="4" maxlength="4" />
+
                                 </div>
                             </div>
                         </div>
@@ -56,8 +58,8 @@
 
                     <div class="btn">
                         <div class="line"></div>
-                        <button>
-                            <img src="/assets/images/icon-arrow.svg" alt="image">
+                        <button >
+                            <img onclick="alert('You clicked the button!')" src="/assets/images/icon-arrow.svg" alt="image">
                         </button>
                     </div>
 
@@ -68,7 +70,7 @@
                     </div>
                 </div>
             </div>
-        <script src=""></script>
-    </div>
+        </div>
+    <script src=""></script>
 </body>
 </html>
